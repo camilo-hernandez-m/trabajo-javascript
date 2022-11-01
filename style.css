@@ -1,0 +1,29 @@
+.img{
+    display: block;
+    margin: 0 auto;
+}
+input[type="text"]{
+    display: block;
+}
+input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+}
+table thead tr{
+    background: #fe8737;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table thead tr th{
+    padding: 10px;
+}
+table tbody tr{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tbody tr:nth-child(2n+1){
+    background: #ffd9ce;
+}
+table tbody tr:nth-child(2n){
+    background: #ffeee7;
+}
