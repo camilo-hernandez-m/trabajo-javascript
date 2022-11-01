@@ -2,7 +2,7 @@ addEventListener("DOMContentLoaded", (e)=>{
 let hor2=document.querySelector('#elint')
 let cont=1
 hor2.addEventListener("submit",(e)=>{
-    e.proventDefault();
+    e.preventDefault();
     if (cont<=50){
     let datosEntrada = Object.fromEntries(new FormData(e.target))
         let hor = datosEntrada.nhoras
@@ -26,7 +26,7 @@ hor2.addEventListener("submit",(e)=>{
 const c = document.querySelector(".container");
 const b = document.querySelector("button");
 
-function change() {
+function change(e) {
   const
     { width: cWidth, height: cHeight } = c.getBoundingClientRect(),
     { width: bWidth, height: bHeight } = b.getBoundingClientRect(),
