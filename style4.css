@@ -139,19 +139,26 @@ body::after {
 .b{
   display: inline-block;
 margin-top: 10px;
+
 transition-property: background-color;
-animation-duration: 10s;
+animation-duration: 20s;
 animation-name: slidein;
+
 animation-iteration-count: infinite;
 }
 h2 {
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-name: slidein;
+  border: 2px solid rebeccapurple;
+  padding: .5em;
   margin: auto;
   background: rgb(0, 0, 0);
 }
 .a{
-  animation-duration: 10s;
+  animation-duration: 20s;
+  margin-top: 10px;
+  border: 2px solid rebeccapurple;
+  padding: .5em;
   animation-name: slidein;
   animation-iteration-count: infinite;
 }
