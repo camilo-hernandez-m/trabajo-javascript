@@ -1,0 +1,57 @@
+
+input[type="text"]{
+    display: block;
+}
+h2{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+ }
+   
+
+input[type="submit"]{
+    display: block;
+    margin-top: 30px;
+    background-color: #d85f0e;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10%;
+    transition: .5s ease-in-out all;
+    border-radius: 3px;
+    transform-origin: center;
+    transform: scale(3);  
+}
+table thead tr{
+    background: #fe8737;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table thead tr th{
+    padding: 10px;
+}
+table tbody tr{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tbody tr:nth-child(2n+1){
+    background: #ffd9ce;
+}
+table tbody tr:nth-child(2n){
+    background: #ffeee7;
+}
+body{
+    background: rgba(223, 23, 23, 0.514);
+}
